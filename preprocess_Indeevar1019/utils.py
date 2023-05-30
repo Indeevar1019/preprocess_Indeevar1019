@@ -9,11 +9,11 @@ from spacy.lang.en.stop_words import STOP_WORDS as stopwords
 from bs4 import BeautifulSoup
 import unicodedata
 from textblob import TextBlob
-#import en_core_web_sm
+import en_core_web_sm
 
 #nlp = spacy.load('en_core_web_sm')
-#nlp = en_core_web_sm.load()
-nlp=spacy.load(r'C:\Python311\Lib\site-packages\en_core_web_sm\en_core_web_sm-3.5.0')
+nlp = en_core_web_sm.load()
+#nlp=spacy.load(r'C:\Python311\Lib\site-packages\en_core_web_sm\en_core_web_sm-3.5.0')
 
 def _get_wordcounts(x):
 	length = len(str(x).split())

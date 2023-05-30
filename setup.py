@@ -6,7 +6,7 @@ with open('README.md', 'r') as file:
 
 setuptools.setup(
 	name = 'preprocess_Indeevar10',
-	version = '0.0.3',
+	version = '0.0.4',
 	author = 'Indeevar',
 	author_email = 'indeevar1000@gmail.com',
 	description = 'This is preprocessing package',
